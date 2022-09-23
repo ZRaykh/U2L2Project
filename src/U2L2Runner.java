@@ -13,5 +13,12 @@ public class U2L2Runner {
         r1.printRectangleInfo(); //printing rectangle data
         r2.printRectangleInfo();
         r3.printRectangleInfo();
+
+        System.out.print("The total length of fencing needed (all three rectangles) is:"); //prints the perimeter of all three Rectangles.
+        System.out.print(r1.calculatePerimeter() + r2.calculatePerimeter() + r3.calculatePerimeter());
+        System.out.println("ft.");
+        System.out.print("The total grass seed needed is:");
+        System.out.print(r1.calculateArea() + r2.calculateArea() + r3.calculateArea());
+        System.out.print("sq ft.");
     }
 }

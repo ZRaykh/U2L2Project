@@ -76,6 +76,7 @@ public class Rectangle
         int perimeter = 2 * width + 2 * length;
         return perimeter;
     }
+
     // Prints the Rectangle's dimensions
     public void printRectangleInfo()
     {
